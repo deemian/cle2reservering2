@@ -1,0 +1,110 @@
+body {
+
+}
+
+
+nav#headernav {
+    display:flex;
+    background-color: #ec008c;
+    padding:15px;
+    margin-top: -8px;
+}
+
+nav#headernav a{
+    padding-left:20px;
+    padding-right:20px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    text-align: center;
+    color:white;
+    text-decoration-line:none;
+    transition: all 0.5s ease;
+}
+
+#navelements {
+    padding-left:12vw;
+}
+
+#navelements2 img {
+    max-height:40px;
+}
+
+
+nav#footernav {
+    margin:auto;
+    text-align: center;
+}
+
+nav#footernav a {
+    padding:0;
+    justify-content: left;
+    border-radius:20px;
+    flex:1;
+    text-align: 0;
+    color:white;
+    font-size:120%;
+    padding-left:1%;
+    padding-right:1%;
+    padding-top:1%;
+    padding-bottom:1%;
+    background-color: rgba(188, 223, 255, 0.479);
+    text-decoration-line: none;
+}
+
+nav a:hover{
+    background-color: #ff58bc;
+}
+
+section#forms {
+    background-color:white;
+    margin: 0 auto;
+    max-width:35vw;
+    padding: 3vw;
+    padding-left: 5vw;
+    font-size:110%;
+}
+
+div.formrule {
+    display:flex;
+    justify-content: space-between;
+    padding:2px;
+}
+
+div.formrule input {
+    background-color: lightgray;
+    border: none;
+    padding: 10px;
+    width: 15vw;
+}
+
+div.formrule select {
+    background-color: lightgray;
+    border: none;
+    padding: 10px;
+    width: 16.3vw;
+}
+
+div.formrule textarea {
+    background-color: lightgray;
+    border: none;
+    padding: 10px;
+    width: 15vw;
+}
+
+div button {
+    margin-top:5vh;
+    background-color: rgb(0, 115, 255);
+    color:white;
+    border: none;
+    width: 35vw;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    font-size:115%;
+    cursor: pointer;
+
+}
+
+div button:hover {
+    background-color: rgb(0, 221, 255);
+    color:white;
+}
